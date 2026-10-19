@@ -41,9 +41,13 @@ Design focus: Investigating the relationship between gain, bandwidth, stability,
  Parameter - Description
 
  EDA tool - Cadence Virtuoso 
+ 
  Simulator -Spectre 
+ 
  Technology library - gpdk180
- Design level - Transistor-level CMOS 
+ 
+ Design level - Transistor-level CMOS
+ 
  Analyses - AC and transient 
 
  5. Reported Performance
