@@ -13,7 +13,7 @@ The work explores MOSFET characterization, differential input stages, current-mi
 - Tail-current biasing
 - Transistor-level implementation and simulation
 
-  Design focus: Understanding differential operation, bias conditions, voltage gain, bandwidth, and power consumption.
+     Design focus: Understanding differential operation, bias conditions, voltage gain, bandwidth, and power consumption.
 
   B. Two-Stage CMOS OTA With Miller Compensation
 
@@ -22,7 +22,7 @@ The work explores MOSFET characterization, differential input stages, current-mi
 - Miller compensation capacitor for frequency compensation
 - Load-capacitance-based simulation and performance evaluation
 
-Design focus: Investigating the relationship between gain, bandwidth, stability, slew rate, and power consumption.
+     Design focus: Investigating the relationship between gain, bandwidth, stability, slew rate, and power consumption.
  3. Design and Simulation Methodology
 
    1. MOSFET characterization: Examine transistor behaviour and operating conditions.
@@ -33,18 +33,20 @@ Design focus: Investigating the relationship between gain, bandwidth, stability,
    6. Transient analysis: Observe input/output waveforms under applied test signals.
    7. Performance evaluation:Compare the reported gain, bandwidth, slew rate, and power metrics.
       
-4. Simulation Environment
- Parameter - Description
+ 4. Simulation Environment
+    
+    Parameter - Description
 
- EDA tool - Cadence Virtuoso 
+    EDA tool - Cadence Virtuoso 
  
- Simulator -Spectre 
+    Simulator -Spectre 
  
- Technology library - gpdk180
+    Technology library - gpdk180
  
- Design level - Transistor-level CMOS
+    Design level - Transistor-level CMOS
  
- Analyses - AC and transient 
+    Analyses - AC and transient
+    
 5. Reported Performance
    The project evaluates the following metrics for the two OTA architectures:
 
