@@ -32,9 +32,8 @@ Design focus: Investigating the relationship between gain, bandwidth, stability,
    5. AC analysis: Evaluate gain and phase response across frequency.
    6. Transient analysis: Observe input/output waveforms under applied test signals.
    7. Performance evaluation:Compare the reported gain, bandwidth, slew rate, and power metrics.
-
+      
 4. Simulation Environment
-
  Parameter - Description
 
  EDA tool - Cadence Virtuoso 
