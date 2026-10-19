@@ -1,74 +1,89 @@
+# CMOS OTA Design and Simulation
 
-1. Project Overview
+**Transistor-Level Analog IC Design | Cadence Virtuoso | Spectre | gpdk180**
 
-This project focuses on the transistor-level design and simulation of single-stage and two-stage CMOS operational transconductance amplifiers (OTAs) using Cadence Virtuoso and Spectre.
+---
 
-The work explores MOSFET characterization, differential input stages, current-mirror biasing, active loads, Miller compensation, and AC and transient performance analysis.
-2. Design Implementations
+## Project Overview
 
-  A. Single-Stage CMOS OTA
+This project focuses on the design and simulation of single-stage and two-stage CMOS Operational Transconductance Amplifiers (OTAs) using Cadence Virtuoso.
+
+The designs are implemented at the transistor level using the gpdk180 technology library. The project explores MOSFET characterization, differential-pair circuits, current mirrors, active loads, and Miller compensation.
+
+## Circuit Architectures
+
+### 1. Single-Stage CMOS OTA
 
 - NMOS differential input pair
-- PMOS active-load/current-mirror configuration
+- PMOS active load
 - Tail-current biasing
 - Transistor-level implementation and simulation
 
-     Design focus: Understanding differential operation, bias conditions, voltage gain, bandwidth, and power consumption.
+**Objective:** Study voltage gain, bandwidth, biasing, and power consumption.
 
-  B. Two-Stage CMOS OTA With Miller Compensation
+### 2. Two-Stage CMOS OTA
 
 - Differential input stage with active load
 - Second gain stage
-- Miller compensation capacitor for frequency compensation
-- Load-capacitance-based simulation and performance evaluation
+- Miller compensation capacitor
+- Capacitive-load simulation
 
-     Design focus: Investigating the relationship between gain, bandwidth, stability, slew rate, and power consumption.
- 3. Design and Simulation Methodology
+**Objective:** Investigate gain, bandwidth, stability, slew rate, and power trade-offs.
 
-   1. MOSFET characterization: Examine transistor behaviour and operating conditions.
-   2. Building-block design: Implement and analyse differential-pair and current-mirror circuits.
-   3. OTA implementation:Construct single-stage and two-stage transistor-level schematics.
-   4. Bias and operating-point analysis: Inspect transistor operating conditions to assess circuit operation.
-   5. AC analysis: Evaluate gain and phase response across frequency.
-   6. Transient analysis: Observe input/output waveforms under applied test signals.
-   7. Performance evaluation:Compare the reported gain, bandwidth, slew rate, and power metrics.
-      
- 4. Simulation Environment
-    
-    Parameter - Description
+## Design Methodology
 
-    EDA tool - Cadence Virtuoso 
- 
-    Simulator -Spectre 
- 
-    Technology library - gpdk180
- 
-    Design level - Transistor-level CMOS
- 
-    Analyses - AC and transient
-    
-5. Reported Performance
-   The project evaluates the following metrics for the two OTA architectures:
+1. MOSFET characterization and operating-point analysis
+2. Differential-pair and current-mirror implementation
+3. Single-stage and two-stage OTA design
+4. Bias-condition verification
+5. AC analysis of gain and phase response
+6. Transient analysis of input and output waveforms
+7. Evaluation of reported performance metrics
+
+## Simulation Environment
+
+| Parameter | Details |
+|---|---|
+| EDA Tool | Cadence Virtuoso |
+| Circuit Simulator | Spectre |
+| Technology Library | gpdk180 |
+| Design Level | Transistor level |
+| Analyses | AC and transient |
+
+## Performance Evaluation
+
+The designs are evaluated using the following metrics, where measured:
 
 - DC voltage gain
-- Bandwidth / gain-bandwidth product
+- Bandwidth and gain-bandwidth product
 - Slew rate
 - Power dissipation
-- Phase margin and stability
-- Common-mode rejection ratio (CMRR), where evaluated
+- Phase margin
+- Common-mode rejection ratio (CMRR)
 
-6. Key Technical Concepts
 
-- MOSFET operating regions and biasing
-- Differential amplifiers and active loads
-- Current mirrors and bias-current generation
+## Key Technical Concepts
+
+- MOSFET biasing and operating regions
+- Differential amplifiers
+- Current mirrors and active loads
 - Small-signal gain and frequency response
-- Miller compensation and frequency stability
-- Slew-rate limitations and capacitive loading
-- Power–performance trade-offs in analog IC design
+- Miller compensation
+- Stability and phase response
+- Slew-rate limitations
+- Analog circuit power-performance trade-offs
 
-7. Repository Contents
+## Tools and Technologies
 
-- `README.md` — Project overview, architecture, and methodology
-- `CMOS_OTA_Portfolio_Report.pdf` — Detailed project summary, schematics, simulation plots, and reported results
+- Cadence Virtuoso
+- Spectre
+- gpdk180 technology library
 
+## Project Files
+
+- `README.md` — Project overview and technical methodology
+- `CMOS_OTA_Portfolio_Report.pdf` — Project report with circuit schematics, simulation plots, and reported results
+
+---
+
+**Project status:** Single-stage and two-stage OTA designs and the documented simulation analyses are summarized in the accompanying project report.
