@@ -86,4 +86,4 @@ The designs are evaluated using the following metrics, where measured:
 
 ---
 
-**Project status:** Single-stage and two-stage OTA designs and the documented simulation analyses are summarized in the accompanying project report.
+
