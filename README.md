@@ -23,16 +23,15 @@ The work explores MOSFET characterization, differential input stages, current-mi
 - Load-capacitance-based simulation and performance evaluation
 
 Design focus: Investigating the relationship between gain, bandwidth, stability, slew rate, and power consumption.
+ 3. Design and Simulation Methodology
 
-3. Design and Simulation Methodology
-
-1. MOSFET characterization: Examine transistor behaviour and operating conditions.
-2. Building-block design: Implement and analyse differential-pair and current-mirror circuits.
-3. OTA implementation:Construct single-stage and two-stage transistor-level schematics.
-4. Bias and operating-point analysis: Inspect transistor operating conditions to assess circuit operation.
-5. AC analysis: Evaluate gain and phase response across frequency.
-6. Transient analysis: Observe input/output waveforms under applied test signals.
-7. Performance evaluation:Compare the reported gain, bandwidth, slew rate, and power metrics.
+   1. MOSFET characterization: Examine transistor behaviour and operating conditions.
+   2. Building-block design: Implement and analyse differential-pair and current-mirror circuits.
+   3. OTA implementation:Construct single-stage and two-stage transistor-level schematics.
+   4. Bias and operating-point analysis: Inspect transistor operating conditions to assess circuit operation.
+   5. AC analysis: Evaluate gain and phase response across frequency.
+   6. Transient analysis: Observe input/output waveforms under applied test signals.
+   7. Performance evaluation:Compare the reported gain, bandwidth, slew rate, and power metrics.
 
 4. Simulation Environment
 
